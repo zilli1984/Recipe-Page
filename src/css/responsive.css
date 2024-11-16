@@ -1,0 +1,22 @@
+@media(max-width:425px){
+
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        max-width: 375px;
+    }
+
+    .container img{
+    max-width: 375px;
+    }
+    
+    .container .preparation-time{
+        padding-right: 35px;
+    }
+}

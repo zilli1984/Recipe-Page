@@ -1,0 +1,142 @@
+html{
+    background-color: #F3E5D7;
+    display: flex;
+    justify-content: center;
+} 
+
+
+body{
+    background-color: #fff;
+    width: 736px;
+    border-radius: 24px;
+    color: #5F564D;
+    font-family: "Outfit";
+}
+.container{
+    padding: 40px;
+}
+
+hr{
+    opacity: 30%;
+    margin-top: 32px;
+}
+
+.container .info h1{
+    font-family: "Young Serif";
+    color:#312E2C;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.container .info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.preparation-time{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF7FB;
+    border-radius: 12px;
+    padding: 24px;
+}
+.preparation-time h3{
+    color: #7A284E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.preparation-time ul{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 0 10px;
+}
+.preparation-time li::before {
+    content: "•";
+    color: #7A284E;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.ingredients h2{
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 32px 0 24px 0;  
+}
+
+.ingredients li::before {
+    content: "•";
+    color: #7A284E;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.ingredients ul{
+    padding-left: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.instructions h2{
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 32px 0 24px 0;
+}
+
+.instructions ol{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 24px;
+    margin: 8px;
+}
+
+.instructions ol li{
+    padding-left: 8px ;
+}
+
+.nutrition h2{
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.nutrition .othercolor{
+    color: #854632;
+    font-weight: 700;
+}
+.instructions li::marker{
+    color: #854632;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
